@@ -8,7 +8,7 @@ import (
 
 	"github.com/go-kit/log/level"
 
-	"github.com/grafana/alerting/templates"
+	"github.com/billcchung/alerting/templates"
 	"github.com/prometheus/alertmanager/template"
 )
 

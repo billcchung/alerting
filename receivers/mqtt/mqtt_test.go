@@ -14,9 +14,9 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafana/alerting/logging"
-	"github.com/grafana/alerting/receivers"
-	"github.com/grafana/alerting/templates"
+	"github.com/billcchung/alerting/logging"
+	"github.com/billcchung/alerting/receivers"
+	"github.com/billcchung/alerting/templates"
 )
 
 // Test certificates from https://github.com/golang/go/blob/4f852b9734249c063928b34a02dd689e03a8ab2c/src/crypto/tls/tls_test.go#L34

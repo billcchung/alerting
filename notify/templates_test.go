@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/grafana/alerting/templates"
+	"github.com/billcchung/alerting/templates"
 
 	"github.com/go-openapi/strfmt"
 	"github.com/stretchr/testify/assert"

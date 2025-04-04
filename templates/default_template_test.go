@@ -10,11 +10,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafana/alerting/models"
+	"github.com/billcchung/alerting/models"
 	"github.com/prometheus/alertmanager/types"
 	"github.com/prometheus/common/model"
 
-	"github.com/grafana/alerting/logging"
+	"github.com/billcchung/alerting/logging"
 )
 
 func TestDefaultTemplateString(t *testing.T) {

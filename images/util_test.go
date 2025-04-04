@@ -10,8 +10,8 @@ import (
 	"github.com/prometheus/alertmanager/types"
 	"github.com/prometheus/common/model"
 
-	"github.com/grafana/alerting/logging"
-	"github.com/grafana/alerting/models"
+	"github.com/billcchung/alerting/logging"
+	"github.com/billcchung/alerting/models"
 )
 
 func TestWithStoredImages(t *testing.T) {

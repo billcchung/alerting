@@ -3,7 +3,7 @@ package notify
 import (
 	"context"
 
-	"github.com/grafana/alerting/cluster"
+	"github.com/billcchung/alerting/cluster"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

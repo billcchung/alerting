@@ -9,7 +9,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/prometheus/common/model"
 
-	"github.com/grafana/alerting/receivers"
+	"github.com/billcchung/alerting/receivers"
 )
 
 var (

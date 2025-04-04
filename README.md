@@ -16,4 +16,4 @@ If you're interested in contributing to this project:
 
 ## License
 
-[AGPL-3.0](https://github.com/grafana/alerting/blob/main/LICENSE)
+[AGPL-3.0](https://github.com/billcchung/alerting/blob/main/LICENSE)

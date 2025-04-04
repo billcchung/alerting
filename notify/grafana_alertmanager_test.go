@@ -21,7 +21,7 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafana/alerting/notify/nfstatus"
+	"github.com/billcchung/alerting/notify/nfstatus"
 )
 
 func setupAMTest(t *testing.T) (*GrafanaAlertmanager, *prometheus.Registry) {

@@ -34,12 +34,12 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/common/model"
 
-	"github.com/grafana/alerting/cluster"
-	"github.com/grafana/alerting/notify/nfstatus"
-	"github.com/grafana/alerting/notify/stages"
+	"github.com/billcchung/alerting/cluster"
+	"github.com/billcchung/alerting/notify/nfstatus"
+	"github.com/billcchung/alerting/notify/stages"
 
-	"github.com/grafana/alerting/models"
-	"github.com/grafana/alerting/templates"
+	"github.com/billcchung/alerting/models"
+	"github.com/billcchung/alerting/templates"
 )
 
 const (

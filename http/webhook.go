@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/grafana/alerting/receivers"
+	"github.com/billcchung/alerting/receivers"
 )
 
 type ForkedSender struct {

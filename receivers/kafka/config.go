@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/grafana/alerting/receivers"
-	"github.com/grafana/alerting/templates"
+	"github.com/billcchung/alerting/receivers"
+	"github.com/billcchung/alerting/templates"
 )
 
 // The user can choose which API version to use when sending

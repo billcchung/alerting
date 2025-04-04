@@ -8,9 +8,9 @@ import (
 
 	"github.com/prometheus/alertmanager/types"
 
-	"github.com/grafana/alerting/logging"
-	"github.com/grafana/alerting/receivers"
-	"github.com/grafana/alerting/templates"
+	"github.com/billcchung/alerting/logging"
+	"github.com/billcchung/alerting/receivers"
+	"github.com/billcchung/alerting/templates"
 )
 
 // Notifier is responsible for sending alert notifications to ding ding.

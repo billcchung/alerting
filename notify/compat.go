@@ -3,7 +3,7 @@ package notify
 import (
 	"encoding/json"
 
-	"github.com/grafana/alerting/definition"
+	"github.com/billcchung/alerting/definition"
 )
 
 func PostableAPIReceiverToAPIReceiver(r *definition.PostableApiReceiver) *APIReceiver {

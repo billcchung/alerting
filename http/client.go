@@ -12,8 +12,8 @@ import (
 
 	"github.com/benbjohnson/clock"
 
-	"github.com/grafana/alerting/logging"
-	"github.com/grafana/alerting/receivers"
+	"github.com/billcchung/alerting/logging"
+	"github.com/billcchung/alerting/receivers"
 )
 
 var ErrInvalidMethod = errors.New("webhook only supports HTTP methods PUT or POST")

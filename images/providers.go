@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/grafana/alerting/logging"
-	"github.com/grafana/alerting/models"
+	"github.com/billcchung/alerting/logging"
+	"github.com/billcchung/alerting/models"
 	"github.com/prometheus/alertmanager/types"
 )
 

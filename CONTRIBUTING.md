@@ -64,7 +64,7 @@ pull request.
 
 alerting uses the `goimports` tool (`go get golang.org/x/tools/cmd/goimports` to
 install) to format the Go files, and sort imports. We use goimports with
-`-local github.com/grafana/alerting` parameter, to put Alerting internal imports into
+`-local github.com/billcchung/alerting` parameter, to put Alerting internal imports into
 a separate group. We try to keep imports sorted into three groups:
 imports from standard library, imports of 3rd party packages and internal
 imports. Goimports will fix the order, but will keep existing newlines

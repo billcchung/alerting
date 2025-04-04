@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/grafana/alerting/logging"
+	"github.com/billcchung/alerting/logging"
 	"github.com/prometheus/alertmanager/types"
 )
 

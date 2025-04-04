@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafana/alerting/logging"
-	"github.com/grafana/alerting/receivers"
+	"github.com/billcchung/alerting/logging"
+	"github.com/billcchung/alerting/receivers"
 )
 
 func TestSendWebhook(t *testing.T) {

@@ -7,8 +7,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws/arn"
 
-	"github.com/grafana/alerting/receivers"
-	"github.com/grafana/alerting/templates"
+	"github.com/billcchung/alerting/receivers"
+	"github.com/billcchung/alerting/templates"
 )
 
 type SigV4Config struct {
