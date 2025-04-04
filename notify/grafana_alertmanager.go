@@ -98,7 +98,7 @@ type GrafanaAlertmanager struct {
 	dispatcherMetrics *dispatch.DispatcherMetrics
 
 	reloadConfigMtx sync.RWMutex
-	configHash      [16]byte
+	configHash      [32]byte
 	config          []byte
 	receivers       []*nfstatus.Receiver
 
@@ -155,7 +155,7 @@ type Configuration interface {
 	RoutingTree() *Route
 	Templates() []templates.TemplateDefinition
 
-	Hash() [16]byte
+	Hash() [32]byte
 	Raw() []byte
 }
 
@@ -614,7 +614,7 @@ func (am *GrafanaAlertmanager) ExternalURL() string {
 
 // ConfigHash returns the hash of the current running configuration.
 // It is not safe to call without a lock.
-func (am *GrafanaAlertmanager) ConfigHash() [16]byte {
+func (am *GrafanaAlertmanager) ConfigHash() [32]byte {
 	return am.configHash
 }
 
